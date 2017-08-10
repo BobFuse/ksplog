@@ -2,7 +2,7 @@
 
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #333;
+	background-color: white;
 	margin: 0;
 	padding: 0;
 	color: #FFF;
@@ -18,12 +18,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 15px;
 	text-align:center;
 }
+
 p {
 	margin: 0;
 	padding-right: 15px;
 	padding-left: 15px;
 	text-align:center;
-	color:#0F6;
+	color:#111;
 }
 
 a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
@@ -44,10 +45,14 @@ a:hover, a:active, a:focus {
 }
 
 
-.container {
-	width: 850px;
-	background-color: #333;
+.roundbox {
+	width: 80%;
+	max-width: 600px;
+	border-radius:10px;
+	border: 2px outset #666;
+	background-color:#D8DAB8;
 	margin: 0 auto;
+	padding: 10px;
 }
 
 
@@ -67,7 +72,7 @@ a:hover, a:active, a:focus {
 /* ~~ The footer ~~ */
 .footer {
 	padding: 10px 0;
-	background-color: #333;
+	font-size: 10px;
 }
 
 /* ~~ miscellaneous float/clear classes ~~ */
@@ -87,6 +92,12 @@ a:hover, a:active, a:focus {
 }
 
 
-.images{
+.images {
    text-align:center;
+}
+.event {
+    display: block;
+    margin: 0 auto;
+	border: 2px outset #603;
+	
 }
