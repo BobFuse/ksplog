@@ -9,6 +9,27 @@
 
 <body>
 
+<!-- FACEBOOK SDK -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '699420223587588',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();   
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- END FACEBOOK SDK -->
 
 <br />
 
@@ -47,6 +68,11 @@
     <!-- END 2ND BOX -->
     
 <br />
+
+
+<div class="fb-login-button" data-max-rows="1" data-size="small" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>
+
+
 
 <p>Random text not in a box.</p>
 
