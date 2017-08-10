@@ -6,6 +6,9 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #FFF;
+
+    background-image: url("images/bgrepeat.jpg");
+    background-repeat: repeat;
 }
 
 ul, ol, dl { 
