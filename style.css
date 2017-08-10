@@ -33,7 +33,7 @@ a img { /* this selector removes the default blue border displayed in some brows
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
 	color: #C63;
-	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none;
 }
 a:visited {
 	color: #C63;
@@ -43,6 +43,15 @@ a:hover, a:active, a:focus {
 	text-decoration: none;
 	color:#CC3
 }
+
+
+a.otherlink { 
+	color: green; 
+}
+a.otherlink:hover, a.otherlink:active, a.otherlink:focus { 
+	color: red; 
+}
+
 
 
 .roundbox {
@@ -57,6 +66,25 @@ a:hover, a:active, a:focus {
 .roundbox:hover {
 	background-color:#DDD;
 }
+
+.roundboxyellow {
+	width: 80%;
+	max-width: 600px;
+	border-radius:10px;
+	border: 2px outset #666;
+	background-color:#CF0;
+	margin: 0 auto;
+	padding: 10px;
+}
+.roundboxyellow:hover {
+	background-color:#FFC;
+}
+
+
+
+
+
+
 
 .header {
 	background-color: #333;
