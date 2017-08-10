@@ -54,7 +54,9 @@ a:hover, a:active, a:focus {
 	margin: 0 auto;
 	padding: 10px;
 }
-
+.roundbox:hover {
+	background-color:#DDD;
+}
 
 .header {
 	background-color: #333;
